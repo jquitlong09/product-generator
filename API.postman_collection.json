@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "7a0b1d25-3b79-4321-806c-b108de7f99cc",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8010/ads",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_description\": \"A totally cool thing that makes you 100% more awesome\",\n    \"vibe_words\": \"awesome, extreme, terrifying\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8010/ads",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8010",
+					"path": [
+						"ads"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

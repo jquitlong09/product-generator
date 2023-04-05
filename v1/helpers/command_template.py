@@ -1,0 +1,5 @@
+PRODUCT_NAME = "generate comma seperated three product names that described as {0} with viber words {1}"
+TV_AD = "Write a creative line in one paragraph for the following product to run on Television advertisement aimed at young adults.  Product: {0} {1}"
+FB_AD = "Write a creative line in one paragraph for the following product to run on Facebook advertisement aimed at parents.  Product: {0} {1}"
+RD_AD = "Write a creative line in one paragraph for the following product to run on Radio advertisement aimed at parents.  Product: {0} {1}"
+SF_WR = "Choose one from {0} then write a safety warning"
